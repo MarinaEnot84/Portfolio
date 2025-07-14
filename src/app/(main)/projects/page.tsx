@@ -38,7 +38,7 @@ const WaveBackground = () => {
 
 export default function ProjectsPage() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen bg-background-light dark:bg-background-dark">
       <section className="h-[50vh] relative flex items-center justify-center bg-gradient-to-br from-blue-900 to-cyan-300 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>

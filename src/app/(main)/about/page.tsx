@@ -46,7 +46,7 @@ export default function AboutPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen bg-background-light dark:bg-background-dark">
       <section className="h-[50vh] relative flex items-center justify-center bg-gradient-to-br from-blue-900 to-cyan-300 dark:from-gray-900 dark:to-gray-700">
         <div className="absolute inset-0 z-0">
           <Canvas>
@@ -81,14 +81,14 @@ export default function AboutPage() {
           whileInView={{ opacity: 1 }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-3xl font-bold mb-6 text-gray-600">Моя история</h2>
-          <p className="text-lg mb-8 text-gray-800">
+          <h2 className="text-3xl font-bold mb-6">Моя история</h2>
+          <p className="text-lg mb-8">
             Я фронтенд-разработчик с 4+ годами опыта. Специализируюсь на
             создании интерактивных и производительных веб-приложений.
           </p>
 
-          <h3 className="text-2xl font-bold mb-4 text-gray-600">Навыки</h3>
-          <div className="flex flex-wrap gap-3 mb-12">
+          <h3 className="text-2xl font-bold mb-4">Навыки</h3>
+          <div className="flex flex-wrap gap-3 mb-12 text-gray-800">
             {skills.map((skill) => (
               <motion.span
                 key={skill}
@@ -100,7 +100,7 @@ export default function AboutPage() {
             ))}
           </div>
 
-          <h3 className="text-2xl font-bold mb-4 text-gray-600">Опыт работы</h3>
+          <h3 className="text-2xl font-bold mb-4">Опыт работы</h3>
           <div className="space-y-6">
             <motion.div
               whileHover={{ x: 20 }}

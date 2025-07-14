@@ -3,13 +3,13 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-          light: {
-            background: '#ffffff',
-            foreground: '#171717',
+          background: {
+            light: '#ffffff',
+            dark: '#0a0a0a',
           },
-          dark: {
-            background: '#0a0a0a',
-            foreground: '#ededed',
+          foreground: {
+            light: '#171717',
+            dark: '#ededed',
           },
           teal: {
             50: '#f0fdfa',

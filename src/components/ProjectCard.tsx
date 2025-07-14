@@ -33,11 +33,11 @@ const ProjectCard = ({ project }: { project: Project }) => {
 
       <div className="p-6 flex flex-col flex-grow">
         <h3 className="text-xl text-gray-600 font-bold mb-2 line-clamp-2">{project.title}</h3>
-        <p className="text-gray-300 mb-4 line-clamp-3 flex-grow">{project.description}</p>
+        <p className="mb-4 line-clamp-3 flex-grow">{project.description}</p>
         
         <div className="flex flex-wrap gap-2 mb-4">
           {project.tags.map((tag) => (
-            <span key={tag} className="px-3 py-1 bg-blue-900/50 rounded-full text-sm">
+            <span key={tag} className="px-3 py-1 bg-blue-100 rounded-full text-sm text-gray-800">
               {tag}
             </span>
           ))}
