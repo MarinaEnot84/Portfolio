@@ -1,47 +1,80 @@
 export const projects = [
-    {
-      id: '1',
-      title: 'MES-система для КАМАЗа',
-      description: 'Дашборды',
-      tags: ['React', 'Redux', 'CSS-in-JS'],
-      imageUrl: 'https://media.istockphoto.com/id/2175904678/ru/%D1%84%D0%BE%D1%82%D0%BE/mes-%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%86%D0%B8%D1%8F-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%BC-%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC-%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82%D0%BE%D0%BC-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0.jpg?s=612x612&w=0&k=20&c=owSP8oZy35E_hnCEW16BivC760s5av6eP5NdxbLIxTw=',
-      // demoUrl: 'https://demo.com',
-      // codeUrl: 'https://github.com/yourname/ecommerce',
-    },
-    {
-      id: '2',
-      title: 'Платформа для внутреннего обучения сотрудников',
-      description: 'Курсы и тесты для руководителей',
-      tags: ['React', 'TypeScript', 'Redux Toolkit', 'TailwindCSS'],
-      imageUrl: 'https://media.istockphoto.com/id/459897141/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0-%D1%81-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D1%83-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D1%82%D0%BC%D0%B5%D1%87%D0%B5%D0%BD%D1%8B.jpg?s=612x612&w=0&k=20&c=jzM1MnsdON4Ys-c58mFGZ6Ek7KnHEj8TN3hAaDgx-6c=',
-      // demoUrl: 'https://demo.com',
-      // codeUrl: 'https://github.com/yourname/ecommerce',
-    },
-    {
-      id: '3',
-      title: 'Платформа для медицинской клиники',
-      description: 'Административная панель, электронные карты пациентов, запись на прием',
-      tags: ['React', 'TypeScript', 'Redux Toolkit', 'Material UI','Next.js'],
-      imageUrl: 'https://media.istockphoto.com/id/1641891514/photo/medicine-doctor-hand-working-with-modern-digital-smartphone-and-laptop-computer-interface-as.webp?a=1&b=1&s=612x612&w=0&k=20&c=cctA5gBBszRs0NFgYB0L6fus9GrGzXyDuHAxwYJV_7Y=',
-      // demoUrl: 'https://demo.com',
-      // codeUrl: 'https://github.com/yourname/ecommerce',
-    },
-    {
-      id: '4',
-      title: 'Система электронного документооборота',
-      description: '',
-      tags: ['React', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'Material UI'],
-      imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGRvY3VtZW50fGVufDB8fDB8fHww',
-      // demoUrl: 'https://demo.com',
-      // codeUrl: 'https://github.com/yourname/ecommerce',
-    },
-    {
-      id: '5',
-      title: 'Административная панель для хоккейного клуба',
-      description: '',
-      tags: ['React', 'TypeScript', 'Redux Toolkit', 'Material UI','Node.js', 'Mongo DB'],
-      imageUrl: 'https://media.istockphoto.com/id/1332278104/photo/ice-hockey-rink-arena-professional-forward-player-attacks-shows-expert-stickhandling-dribbles.webp?a=1&b=1&s=612x612&w=0&k=20&c=ExrotboDm8Y68sDamU7SI7gFof1TgnaKqQ5ORG_4KfE=',
-      // demoUrl: 'https://demo.com',
-      // codeUrl: 'https://github.com/yourname/ecommerce',
-    }
-  ];
+  {
+    id: "1",
+    title: "MES-система для КАМАЗа",
+    description: "Дашборды",
+    tags: ["React", "Redux", "CSS-in-JS"],
+    imageUrl:
+      "https://media.istockphoto.com/id/2175904678/ru/%D1%84%D0%BE%D1%82%D0%BE/mes-%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%86%D0%B8%D1%8F-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%BC-%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC-%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82%D0%BE%D0%BC-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0.jpg?s=612x612&w=0&k=20&c=owSP8oZy35E_hnCEW16BivC760s5av6eP5NdxbLIxTw=",
+    // demoUrl: 'https://demo.com',
+    // codeUrl: 'https://github.com/yourname/ecommerce',
+  },
+  {
+    id: "2",
+    title: "Платформа для внутреннего обучения сотрудников",
+    description: "Курсы и тесты для руководителей",
+    tags: ["React", "TypeScript", "Redux Toolkit", "TailwindCSS"],
+    imageUrl:
+      "https://media.istockphoto.com/id/459897141/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0-%D1%81-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D1%83-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D1%82%D0%BC%D0%B5%D1%87%D0%B5%D0%BD%D1%8B.jpg?s=612x612&w=0&k=20&c=jzM1MnsdON4Ys-c58mFGZ6Ek7KnHEj8TN3hAaDgx-6c=",
+    // demoUrl: 'https://demo.com',
+    // codeUrl: 'https://github.com/yourname/ecommerce',
+  },
+  {
+    id: "3",
+    title: "Платформа для медицинской клиники",
+    description:
+      "Административная панель, электронные карты пациентов, запись на прием",
+    tags: ["React", "TypeScript", "Redux Toolkit", "Material UI", "Next.js"],
+    imageUrl:
+      "https://media.istockphoto.com/id/1641891514/photo/medicine-doctor-hand-working-with-modern-digital-smartphone-and-laptop-computer-interface-as.webp?a=1&b=1&s=612x612&w=0&k=20&c=cctA5gBBszRs0NFgYB0L6fus9GrGzXyDuHAxwYJV_7Y=",
+    // demoUrl: 'https://demo.com',
+    // codeUrl: 'https://github.com/yourname/ecommerce',
+  },
+  {
+    id: "4",
+    title: "Система электронного документооборота",
+    description: "",
+    tags: ["React", "TypeScript", "Redux Toolkit", "RTK Query", "Material UI"],
+    imageUrl:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGRvY3VtZW50fGVufDB8fDB8fHww",
+    // demoUrl: 'https://demo.com',
+    // codeUrl: 'https://github.com/yourname/ecommerce',
+  },
+  {
+    id: "5",
+    title: "Административная панель для хоккейного клуба",
+    description: "",
+    tags: [
+      "React",
+      "TypeScript",
+      "Redux Toolkit",
+      "Material UI",
+      "Node.js",
+      "Mongo DB",
+    ],
+    imageUrl:
+      "https://media.istockphoto.com/id/1332278104/photo/ice-hockey-rink-arena-professional-forward-player-attacks-shows-expert-stickhandling-dribbles.webp?a=1&b=1&s=612x612&w=0&k=20&c=ExrotboDm8Y68sDamU7SI7gFof1TgnaKqQ5ORG_4KfE=",
+    // demoUrl: 'https://demo.com',
+    // codeUrl: 'https://github.com/yourname/ecommerce',
+  },
+  {
+    id: "5",
+    title: "Международная академия нутрициологии",
+    description: "",
+    tags: ["React", "TypeScript", "Redux Toolkit", "Material UI", "Next.js"],
+    imageUrl:
+      "https://plus.unsplash.com/premium_photo-1664476002571-ead0cbfc6d74?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bnV0cml0aW9ufGVufDB8fDB8fHww",
+    // demoUrl: 'https://demo.com',
+    // codeUrl: 'https://github.com/yourname/ecommerce',
+  },
+  {
+    id: "5",
+    title: "Ипотечное кредитование онлайн (АТБанк)",
+    description: "",
+    tags: ["React", "TypeScript", "MobX", "Ant Design"],
+    imageUrl:
+      "https://images.unsplash.com/photo-1634757439914-23b8acb9d411?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxvYW58ZW58MHx8MHx8fDA%3D",
+    // demoUrl: 'https://demo.com',
+    // codeUrl: 'https://github.com/yourname/ecommerce',
+  },
+];
